@@ -165,28 +165,55 @@ const listArr = [
 ];
 
 (function createButtons() {
-  const buttonContainer = document.getElementById("button-container");
+  const card = document.getElementById("cards");
 
   listArr.forEach((item) => {
-    const paragraph = document.createElement("p");
-    paragraph.innerHTML = item;
-    buttonContainer.appendChild(paragraph);
 
-    const button = document.createElement("button");
-    button.innerHTML = `ATA`;
-    button.className = "button";
-    buttonContainer.appendChild(button);
+    let card = document.createElement("div");
+    card.className = "card";
 
-    const button2 = document.createElement("button");
-    button2.innerHTML = `Guarita`;
-    button2.className = "button";
-    buttonContainer.appendChild(button2);
+    const nomeCondominio = document.createElement("p");
+    nomeCondominio.innerHTML = item;
+    nomeCondominio.className = "nome";
 
-    const button3 = document.createElement("button");
-    button3.innerHTML = `Guarita`;
-    button3.className = "button";
-    buttonContainer.appendChild(button3);
-    
+    card.appendChild(nomeCondominio);
+
+    const mikrotikButton = document.createElement("button");
+    mikrotikButton.innerHTML = `Link Mikrotik`;
+    mikrotikButton.addEventListener("click", function(event) {
+      event.preventDefault();
+      const url = `${item}:7894`;
+      navigator.clipboard.writeText(url)
+        .then(function() {
+          alert(`${item}:7894 copiado`)
+        })
+        .catch(function(err) {
+          console.error("Erro ao copiar o link: ", err);
+        });
+    });
+    mikrotikButton.className = "button";
+    card.appendChild(mikrotikButton);
+
+    const ataButton = document.createElement("button");
+    ataButton.innerText = "ATA";
+    ataButton.addEventListener("click", function () {
+      window.open(`http://${item}:8888`, "_blank");
+    });
+    ataButton.className = "button";
+    card.appendChild(ataButton);
+
+    const guaritaButton = document.createElement("button");
+    guaritaButton.innerHTML = `Guarita`;
+    guaritaButton.addEventListener("click", function () {
+      window.open(`http://${item}:8093`, "_blank");
+    });
+    guaritaButton.className = "button";
+    card.appendChild(guaritaButton);
+
+    card.style.display = "none";
+    cards.appendChild(card);
   });
 }
 )()
+
+

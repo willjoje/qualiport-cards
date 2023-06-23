@@ -1,6 +1,7 @@
 {
     "type": "module",
     "dependencies": {
-        "firebase": "^9.22.2"
+        "firebase": "^9.22.2",
+        "ping": "^0.4.4"
     }
 }

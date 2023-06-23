@@ -48,3 +48,8 @@ body{
 	background-color: #3e8e41;
 }
 
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

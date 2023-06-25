@@ -164,13 +164,16 @@ const listArr = [
   "cond-zezo.dyndns.org",
 ];
 
+
 (function createButtons() {
-  const card = document.getElementById("cards");
+  let cardContainer = document.getElementById("card-container");
+
 
   listArr.forEach((item) => {
 
     let card = document.createElement("div");
     card.className = "card";
+    card.id = 'card';
 
     const nomeCondominio = document.createElement("p");
     nomeCondominio.innerHTML = item;
@@ -180,14 +183,14 @@ const listArr = [
 
     const mikrotikButton = document.createElement("button");
     mikrotikButton.innerHTML = `Link Mikrotik`;
-    mikrotikButton.addEventListener("click", function(event) {
+    mikrotikButton.addEventListener("click", function (event) {
       event.preventDefault();
       const url = `${item}:7894`;
       navigator.clipboard.writeText(url)
-        .then(function() {
+        .then(function () {
           alert(`${item}:7894 copiado`)
         })
-        .catch(function(err) {
+        .catch(function (err) {
           console.error("Erro ao copiar o link: ", err);
         });
     });
@@ -210,10 +213,29 @@ const listArr = [
     guaritaButton.className = "button";
     card.appendChild(guaritaButton);
 
-    card.style.display = "none";
-    cards.appendChild(card);
+    // card.style.display = "none";
+    cardContainer.appendChild(card);
   });
 }
 )()
+
+const searchBar = document.getElementById("search-bar");
+const cardContainer = document.getElementById("card-container");
+
+searchBar.addEventListener('input', function () {
+  const searchTerm = searchBar.value.toLowerCase();
+  const cardArray = cardContainer.querySelectorAll("#card");
+  console.log("01");
+  cardArray.forEach(function(card) {
+  console.log("02");
+
+    if (card.querySelector("p").innerText === searchTerm) {
+          
+    } 
+  });
+
+  
+
+});
 
 

@@ -164,16 +164,13 @@ const listArr = [
   "cond-zezo.dyndns.org",
 ];
 
-
 (function createButtons() {
   let cardContainer = document.getElementById("card-container");
 
-
   listArr.forEach((item) => {
-
     let card = document.createElement("div");
     card.className = "card";
-    card.id = 'card';
+    card.id = "card";
 
     const nomeCondominio = document.createElement("p");
     nomeCondominio.innerHTML = item;
@@ -186,9 +183,10 @@ const listArr = [
     mikrotikButton.addEventListener("click", function (event) {
       event.preventDefault();
       const url = `${item}:7894`;
-      navigator.clipboard.writeText(url)
+      navigator.clipboard
+        .writeText(url)
         .then(function () {
-          alert(`${item}:7894 copiado`)
+          alert(`${item}:7894 copiado`);
         })
         .catch(function (err) {
           console.error("Erro ao copiar o link: ", err);
@@ -216,26 +214,21 @@ const listArr = [
     // card.style.display = "none";
     cardContainer.appendChild(card);
   });
-}
-)()
+})();
 
-const searchBar = document.getElementById("search-bar");
-const cardContainer = document.getElementById("card-container");
 
-searchBar.addEventListener('input', function () {
-  const searchTerm = searchBar.value.toLowerCase();
-  const cardArray = cardContainer.querySelectorAll("#card");
-  console.log("01");
-  cardArray.forEach(function(card) {
-  console.log("02");
+document.getElementById('search-bar').addEventListener('input', function () {
+  var input = this.value.toLowerCase();
+  var cards = document.getElementsByClassName('card');
 
-    if (card.querySelector("p").innerText === searchTerm) {
-          
-    } 
+  Array.from(cards).forEach(function (card) {
+    var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
+    if (name.includes(input)) {
+      card.style.display = 'block';
+      console.log(card);
+    } else {
+      card.style.display = 'none';
+      console.log("none");
+    }
   });
-
-  
-
 });
-
-

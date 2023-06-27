@@ -17,15 +17,15 @@ var listArr = [];
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
 
-  listArr.forEach((item) => {
+  listArr.forEach((condominio) => {
     console.log("chegouaqui")
 
     let card = document.createElement("div");
     card.className = "card";
     card.id = "card";
 
-    const nomeCondominio = "";
-    nomeCondominio.innerHTML = `<h1>${item.nome}</h1>`;
+    const nomeCondominio = document.createElement("p")
+    nomeCondominio.innerHTML = condominio.nome;
     nomeCondominio.className = "nome";
 
     card.appendChild(nomeCondominio);
@@ -50,7 +50,7 @@ function createButtons(listArr) {
     const ataButton = document.createElement("button");
     ataButton.innerText = "ATA";
     ataButton.addEventListener("click", function () {
-      window.open(`http://${item}:8888`, "_blank");
+      window.open(`http://${condominio.dominio}:8888`, "_blank");
     });
     ataButton.className = "button";
     card.appendChild(ataButton);
@@ -58,7 +58,7 @@ function createButtons(listArr) {
     const guaritaButton = document.createElement("button");
     guaritaButton.innerHTML = `Guarita`;
     guaritaButton.addEventListener("click", function () {
-      window.open(`http://${item}:8093`, "_blank");
+      window.open(`http://${condominio.dominio}:8093`, "_blank");
     });
     guaritaButton.className = "button";
     card.appendChild(guaritaButton);

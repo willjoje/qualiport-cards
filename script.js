@@ -1,13 +1,14 @@
 const buttonContainer = document.getElementById("button-container");
 var listArr = [];
 
-(async function() {
+(async function () {
   try {
+
     const response = await fetch('cond-data.json');
     const data = await response.json();
     const listArr = data.cards;
     createButtons(listArr);
-    // Restante do seu código...
+
   } catch (error) {
     console.log('Error:', error);
   }
@@ -18,7 +19,6 @@ function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
 
   listArr.forEach((condominio) => {
-    console.log("chegouaqui")
 
     let card = document.createElement("div");
     card.className = "card";
@@ -27,18 +27,31 @@ function createButtons(listArr) {
     const nomeCondominio = document.createElement("p")
     nomeCondominio.innerHTML = condominio.nome;
     nomeCondominio.className = "nome";
-
     card.appendChild(nomeCondominio);
 
+    const troncoButton = document.createElement("button");
+    troncoButton.innerHTML = condominio.tronco;
+    troncoButton.className = "troncoButton";
+    troncoButton.id = "troncoButton";
+    troncoButton.addEventListener("click", function (event) {
+      event.preventDefault();
+      navigator.clipboard
+        .writeText(condominio.tronco)
+        .catch(function (err) {
+          console.error("Erro ao copiar o link: ", err);
+        });
+    });
+    card.appendChild(troncoButton);
+
     const mikrotikButton = document.createElement("button");
-    mikrotikButton.innerHTML = `Link Mikrotik`;
+    mikrotikButton.innerHTML = `Mikrotik`;
     mikrotikButton.addEventListener("click", function (event) {
       event.preventDefault();
       const url = `${item}:7894`;
       navigator.clipboard
         .writeText(url)
         .then(function () {
-          // alert(`${item}:7894 copiado`);
+          // alert(`${item}:7894 copiado`); //alerta ao copiar o link do mikrotik
         })
         .catch(function (err) {
           console.error("Erro ao copiar o link: ", err);
@@ -63,7 +76,37 @@ function createButtons(listArr) {
     guaritaButton.className = "button";
     card.appendChild(guaritaButton);
 
-    // card.style.display = "none";
+    const dvrButton = document.createElement("button");
+    dvrButton.innerHTML = "DVR";
+    dvrButton.addEventListener("click", function () {
+      window.open(`http://${condominio.dominiodvr}`, "_blank");
+    });
+    dvrButton.className = "button";
+    card.appendChild(dvrButton);
+
+    if (condominio.dominiodvr2 != "") {
+      const dvrButton = document.createElement("button");
+      dvrButton.innerHTML = "DVR 2";
+      dvrButton.addEventListener("click", function () {
+        window.open(`http://${condominio.dominiodvr2}`, "_blank");
+      });
+      dvrButton.className = "button";
+      card.appendChild(dvrButton);
+    }
+
+    if (condominio.dominiodvr3 != "") {
+      const dvrButton = document.createElement("button");
+      dvrButton.innerHTML = "DVR 2";
+      dvrButton.addEventListener("click", function () {
+        window.open(`http://${condominio.dominiodvr3}`, "_blank");
+      });
+      dvrButton.className = "button";
+      card.appendChild(dvrButton);
+    }
+
+
+
+    // card.style.display = "none"; //inicia sem nenhum condomínio
     cardContainer.appendChild(card);
   });
 }
@@ -75,12 +118,12 @@ document.getElementById('search-bar').addEventListener('input', function () {
 
   Array.from(cards).forEach(function (card) {
     var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
-    if (name.includes(input)) {
+    var tronco = card.getElementsByTagName('button')[0].textContent.toLowerCase();
+    console.log(name);
+    if (name.includes(input) || tronco.includes(input)) {
       card.style.display = 'block';
-      console.log(card);
     } else {
       card.style.display = 'none';
-      console.log("none");
     }
   });
 });

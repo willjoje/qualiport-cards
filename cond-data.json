@@ -13,7 +13,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2047",
-      "ramal": "20471"
+      "ramal": "20471",
+      "autonomo": false
     },
     {
       "id": "002",
@@ -28,7 +29,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2118",
-      "ramal": "21181"
+      "ramal": "21181",
+      "autonomo": false
     },
     {
       "id": "003",
@@ -43,7 +45,8 @@
       "dominiodvr2": "cond-alamedadosdantas.dyndns.org:20502",
       "dominiodvr3": "",
       "tronco": "2050",
-      "ramal": "20501"
+      "ramal": "20501",
+      "autonomo": false
     },
     {
       "id": "004",
@@ -59,7 +62,8 @@
       "dominiodvr3": "",
       "tronco": "3766",
       "ramal": "37661",
-      "ramal2": "37662"
+      "ramal2": "37662",
+      "autonomo": false
     },
     {
       "id": "005",
@@ -74,7 +78,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2084",
-      "ramal": "20841"
+      "ramal": "20841",
+      "autonomo": false
     },
     {
       "id": "006",
@@ -89,7 +94,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2098",
-      "ramal": "20981"
+      "ramal": "20981",
+      "autonomo": false
     },
     {
       "id": "007",
@@ -104,7 +110,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2140",
-      "ramal": "21401"
+      "ramal": "21401",
+      "autonomo": false
     },
     {
       "id": "008",
@@ -119,7 +126,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2055",
-      "ramal": "20551"
+      "ramal": "20551",
+      "autonomo": false
     },
     {
       "id": "009",
@@ -134,7 +142,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2078",
-      "ramal": "20781"
+      "ramal": "20781",
+      "autonomo": false
     },
     {
       "id": "010",
@@ -149,7 +158,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2012",
-      "ramal": "20121"
+      "ramal": "20121",
+      "autonomo": false
     },
     {
       "id": "011",
@@ -164,7 +174,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2027",
-      "ramal": "20271"
+      "ramal": "20271",
+      "autonomo": false
     },
     {
       "id": "012",
@@ -179,7 +190,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2028",
-      "ramal": "20281"
+      "ramal": "20281",
+      "autonomo": false
     },
     {
       "id": "013",
@@ -194,7 +206,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2139",
-      "ramal": "21391"
+      "ramal": "21391",
+      "autonomo": false
     },
     {
       "id": "014",
@@ -209,7 +222,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2129",
-      "ramal": "21291"
+      "ramal": "21291",
+      "autonomo": false
     },
     {
       "id": "015",
@@ -224,7 +238,8 @@
       "dominiodvr2": "cond-arcadia.dyndns.org:20902",
       "dominiodvr3": "",
       "tronco": "2090",
-      "ramal": "20901"
+      "ramal": "20901",
+      "autonomo": false
     },
     {
       "id": "016",
@@ -239,7 +254,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2045",
-      "ramal": "20451"
+      "ramal": "20451",
+      "autonomo": false
     },
     {
       "id": "017",
@@ -250,221 +266,236 @@
       "ipdvr": "192.168.7.197",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-atlantico.dyndns.org:20351",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2035",
+      "ramal": "20351",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "018",
+      "nome": "Azaleias",
       "dominio": "cond-azaleias.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.22.33",
+      "ipguarita": "192.168.22.39",
+      "ipdvr": "192.168.22.38",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-azaleias.dyndns.org:36731",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "3673",
+      "ramal": "36731",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "019",
+      "nome": "Bali",
       "dominio": "cond-bali.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.12.161",
+      "ipguarita": "192.168.12.167",
+      "ipdvr": "192.168.12.165",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-bali.dyndns.org:",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2073",
+      "ramal": "20731",
+      "autonomo": true
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "020",
+      "nome": "Barão de Melgaço",
       "dominio": "cond-baraodemelgaco.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.28.65",
+      "ipguarita": "192.168.28.71",
+      "ipdvr": "192.168.28.69",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-baraodemelgaco.dyndns.org:40191",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "4019",
+      "ramal": "40191",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "021",
+      "nome": "Bela Vista",
       "dominio": "cond-belavistaqualiport.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.16.1",
+      "ipguarita": "192.168.16.7",
+      "ipdvr": "192.168.16.5",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-belavistaqualiport.dyndns.org:21071",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2107",
+      "ramal": "21071",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "022",
+      "nome": "Bellagio",
       "dominio": "cond-bellagio.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.6.129",
+      "ipguarita": "192.168.6.135",
+      "ipdvr": "192.168.6.133",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-bellagio.dyndns.org:20251",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "3001",
+      "ramal": "",
+      "autonomo": true
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "023",
+      "nome": "Berna",
       "dominio": "cond-berna.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.10.1",
+      "ipguarita": "192.168.10.7",
+      "ipdvr": "192.168.10.5",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-berna.dyndns.org:20541",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2054",
+      "ramal": "20541",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "024",
+      "nome": "Bongi",
       "dominio": "cond-bongi.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
-      "ipdvr2": "",
+      "ipmikrotik": "192.168.8.1",
+      "ipguarita": "192.168.8.7",
+      "ipdvr": "192.168.8.5",
+      "ipdvr2": "192.168.8.6",
       "ipdvr3": "",
-      "dominiodvr": "",
-      "dominiodvr2": "",
+      "dominiodvr": "cond-bongi.dyndns.org:20371",
+      "dominiodvr2": "cond-bongi.dyndns.org:20372",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2037",
+      "ramal": "20371",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "025",
+      "nome": "Bosque de Lyon",
       "dominio": "cond-bosquedelyon.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
-      "ipdvr2": "",
-      "ipdvr3": "",
-      "dominiodvr": "",
-      "dominiodvr2": "",
-      "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "ipmikrotik": "192.168.5.1",
+      "ipguarita": "192.168.5.7",
+      "ipdvr": "192.168.5.5",
+      "ipdvr2": "192.168.5.6",
+      "ipdvr3": "192.168.5.8",
+      "dominiodvr": "cond-bosquedelyon.dyndns.org:20131",
+      "dominiodvr2": "cond-bosquedelyon.dyndns.org:20133",
+      "dominiodvr3": "cond-bosquedelyon.dyndns.org:20132",
+      "tronco": "2013",
+      "ramal": "20131",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "026",
+      "nome": "Bosque Tacaruna",
       "dominio": "cond-bosquetacaruna.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
-      "ipdvr2": "",
+      "ipmikrotik": "192.168.14.97",
+      "ipguarita": "192.168.14.103",
+      "ipdvr": "192.168.14.101",
+      "ipdvr2": "192.168.14.102",
       "ipdvr3": "",
-      "dominiodvr": "",
-      "dominiodvr2": "",
+      "dominiodvr": "cond-bosquetacaruna.dyndns.org:20871",
+      "dominiodvr2": "cond-bosquetacaruna.dyndns.org:20872",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2087",
+      "ramal": "20871",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "027",
+      "nome": "Camilo Pereira",
       "dominio": "cond-camilopereira.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.28.97",
+      "ipguarita": "192.168.28.103",
+      "ipdvr": "192.168.28.101",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-camilopereira.dyndns.org:40171",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "4017",
+      "ramal": "40171",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "028",
+      "nome": "Casa Alta",
       "dominio": "cond-casaalta.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.18.33",
+      "ipguarita": "192.168.18.39",
+      "ipdvr": "192.168.18.37",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-casaalta.dyndns.org:21201",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2120",
+      "ramal": "21201",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "029",
+      "nome": "Casabella",
       "dominio": "cond-casabella.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.3.33",
+      "ipguarita": "192.168.3.39",
+      "ipdvr": "192.168.3.37",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-casabella.dyndns.org",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2000",
+      "ramal": "20001",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "030",
+      "nome": "Centauro",
       "dominio": "cond-centauro.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.16.97",
+      "ipguarita": "192.168.16.103",
+      "ipdvr": "192.168.16.101",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-centauro.dyndns.org:21081",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2108",
+      "ramal": "21081",
+      "autonomo": false
     },
     {
-      "id": "",
-      "nome": "",
+      "id": "031",
+      "nome": "Chateau Lacave",
       "dominio": "cond-chateaulacave.dyndns.org",
-      "ipmikrotik": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.12.225",
+      "ipguarita": "192.168.12.231",
+      "ipdvr": "192.168.12.229",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-chateaulacave.dyndns.org:20771",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": ""
+      "tronco": "2077",
+      "ramal": "20771",
+      "autonomo": true
     },
     {
       "id": "",
@@ -479,7 +510,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -494,7 +526,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -509,7 +542,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -524,7 +558,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -539,7 +574,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -554,7 +590,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -569,7 +606,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -584,7 +622,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -599,7 +638,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -614,7 +654,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -629,7 +670,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -644,7 +686,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -659,7 +702,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -674,7 +718,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -689,7 +734,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -704,7 +750,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -719,7 +766,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -734,7 +782,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -749,7 +798,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -764,7 +814,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -779,7 +830,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -794,7 +846,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -809,7 +862,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -824,7 +878,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -839,7 +894,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -854,7 +910,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -869,7 +926,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -884,7 +942,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -899,7 +958,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -914,7 +974,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -929,7 +990,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -944,7 +1006,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -959,7 +1022,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -974,7 +1038,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -989,7 +1054,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1004,7 +1070,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1019,7 +1086,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1034,7 +1102,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1049,7 +1118,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1064,7 +1134,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1079,7 +1150,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1094,7 +1166,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1109,7 +1182,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1124,7 +1198,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1139,7 +1214,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1154,7 +1230,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1169,7 +1246,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1184,7 +1262,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1199,7 +1278,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1214,7 +1294,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1229,7 +1310,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1244,7 +1326,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1259,7 +1342,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1274,7 +1358,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1289,7 +1374,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1304,7 +1390,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1319,7 +1406,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1334,7 +1422,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1349,7 +1438,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1364,7 +1454,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1379,7 +1470,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1394,7 +1486,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1409,7 +1502,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1424,7 +1518,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1439,7 +1534,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1454,7 +1550,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1469,7 +1566,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1484,7 +1582,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1499,7 +1598,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1514,7 +1614,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1529,7 +1630,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1544,7 +1646,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1559,7 +1662,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1574,7 +1678,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1589,7 +1694,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1604,7 +1710,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1619,7 +1726,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1634,7 +1742,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1649,7 +1758,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1664,7 +1774,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1679,7 +1790,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1694,7 +1806,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1709,7 +1822,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1724,7 +1838,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1739,7 +1854,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1754,7 +1870,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1769,7 +1886,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1784,7 +1902,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1799,7 +1918,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1814,7 +1934,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1829,7 +1950,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1844,7 +1966,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1859,7 +1982,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1874,7 +1998,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1889,7 +2014,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1904,7 +2030,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1919,7 +2046,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1934,7 +2062,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1949,7 +2078,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1964,7 +2094,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1979,7 +2110,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -1994,7 +2126,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2009,7 +2142,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2024,7 +2158,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2039,7 +2174,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2054,7 +2190,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2069,7 +2206,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2084,7 +2222,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2099,7 +2238,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2114,7 +2254,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2129,7 +2270,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2144,7 +2286,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2159,7 +2302,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2174,7 +2318,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2189,7 +2334,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2204,7 +2350,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2219,7 +2366,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2234,7 +2382,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2249,7 +2398,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2264,7 +2414,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2279,7 +2430,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2294,7 +2446,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2309,7 +2462,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2324,7 +2478,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2339,7 +2494,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2354,7 +2510,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2369,7 +2526,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2384,7 +2542,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2399,7 +2558,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     },
     {
       "id": "",
@@ -2414,7 +2574,8 @@
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "",
-      "ramal": ""
+      "ramal": "",
+      "autonomo": false
     }
   ]
 }

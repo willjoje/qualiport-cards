@@ -41,6 +41,9 @@ function createButtons(listArr) {
           console.error("Erro ao copiar o link: ", err);
         });
     });
+    if(condominio.autonomo){
+      
+    }
     card.appendChild(troncoButton);
 
     const mikrotikButton = document.createElement("button");
@@ -96,7 +99,7 @@ function createButtons(listArr) {
 
     if (condominio.dominiodvr3 != "") {
       const dvrButton = document.createElement("button");
-      dvrButton.innerHTML = "DVR 2";
+      dvrButton.innerHTML = "DVR 3";
       dvrButton.addEventListener("click", function () {
         window.open(`http://${condominio.dominiodvr3}`, "_blank");
       });
@@ -104,9 +107,6 @@ function createButtons(listArr) {
       card.appendChild(dvrButton);
     }
 
-
-
-    // card.style.display = "none"; //inicia sem nenhum condomínio
     cardContainer.appendChild(card);
   });
 }

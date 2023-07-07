@@ -127,3 +127,29 @@ document.getElementById('search-bar').addEventListener('input', function () {
     }
   });
 });
+
+(function ping() {
+  const socket = new WebSocket("wss://www.google.com.br");
+
+  // Registrar o tempo de envio
+  const startTime = Date.now();
+
+  socket.onopen = function() {
+    // Calcular o tempo de resposta
+    const latency = Date.now() - startTime;
+    console.log(`Latência: ${latency}ms`);
+
+    // Fechar a conexão
+    socket.close();
+  };
+
+  socket.onerror = function(error) {
+    console.error('Erro:', error);
+  };
+
+  socket.onclose = function(event) {
+    if (event.code !== 1000) {
+      console.warn('Conexão fechada de forma anormal.');
+    }
+  };
+})()

@@ -1,22 +1,29 @@
 const buttonContainer = document.getElementById("button-container");
 var listArr = [];
 
-(async function () {
+async function loadData() {
   try {
-
     const response = await fetch('cond-data.json');
     const data = await response.json();
     const listArr = data.cards;
     createButtons(listArr);
-
   } catch (error) {
     console.log('Error:', error);
   }
-})();
+}
 
+// Run the loadData function initially
+loadData();
+
+// Run the loadData function every 5 seconds
+setInterval(loadData,30000);
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
+
+  while (cardContainer.firstChild) {
+    cardContainer.removeChild(cardContainer.firstChild);
+  }
 
   listArr.forEach((condominio) => {
 
@@ -28,6 +35,18 @@ function createButtons(listArr) {
     nomeCondominio.innerHTML = condominio.nome;
     nomeCondominio.className = "nome";
     card.appendChild(nomeCondominio);
+
+    const image = new Image();
+    image.src = `http://${condominio.dominio}:797/mikrotik_logo.png`;
+    image.addEventListener("error", function() {
+      // Image failed to load, change background color to red
+      card.style.backgroundColor = "red";
+    });
+    
+    image.addEventListener("load", function() {
+      // Image is successfully loaded, change background color to green
+      card.style.backgroundColor = "green";
+    });
 
     const troncoButton = document.createElement("button");
     troncoButton.innerHTML = condominio.tronco;
@@ -41,8 +60,8 @@ function createButtons(listArr) {
           console.error("Erro ao copiar o link: ", err);
         });
     });
-    if(condominio.autonomo){
-      
+    if (condominio.autonomo) {
+
     }
     card.appendChild(troncoButton);
 
@@ -50,7 +69,7 @@ function createButtons(listArr) {
     mikrotikButton.innerHTML = `Mikrotik`;
     mikrotikButton.addEventListener("click", function (event) {
       event.preventDefault();
-      const url = `${item}:7894`;
+      const url = `${condominio.dominio}:7890`;
       navigator.clipboard
         .writeText(url)
         .then(function () {
@@ -66,7 +85,7 @@ function createButtons(listArr) {
     const ataButton = document.createElement("button");
     ataButton.innerText = "ATA";
     ataButton.addEventListener("click", function () {
-      window.open(`http://${condominio.dominio}:8888`, "_blank");
+      window.open(`http://${condominio.dominio}:8889`, "_blank");
     });
     ataButton.className = "button";
     card.appendChild(ataButton);
@@ -111,6 +130,21 @@ function createButtons(listArr) {
   });
 }
 
+function checkConection(){
+  var cards = document.getElementsByClassName('card');
+
+  Array.from(cards).forEach(function (card) {
+    var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
+    var tronco = card.getElementsByTagName('button')[0].textContent.toLowerCase();
+    if (name.includes(input) || tronco.includes(input)) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+
+}
+
 
 document.getElementById('search-bar').addEventListener('input', function () {
   var input = this.value.toLowerCase();
@@ -119,7 +153,6 @@ document.getElementById('search-bar').addEventListener('input', function () {
   Array.from(cards).forEach(function (card) {
     var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
     var tronco = card.getElementsByTagName('button')[0].textContent.toLowerCase();
-    console.log(name);
     if (name.includes(input) || tronco.includes(input)) {
       card.style.display = 'block';
     } else {
@@ -128,28 +161,9 @@ document.getElementById('search-bar').addEventListener('input', function () {
   });
 });
 
-(function ping() {
-  const socket = new WebSocket("wss://www.google.com.br");
-
-  // Registrar o tempo de envio
-  const startTime = Date.now();
-
-  socket.onopen = function() {
-    // Calcular o tempo de resposta
-    const latency = Date.now() - startTime;
-    console.log(`Latência: ${latency}ms`);
-
-    // Fechar a conexão
-    socket.close();
-  };
-
-  socket.onerror = function(error) {
-    console.error('Erro:', error);
-  };
-
-  socket.onclose = function(event) {
-    if (event.code !== 1000) {
-      console.warn('Conexão fechada de forma anormal.');
-    }
-  };
-})()
+function runCreateButtons(listArr) {
+  createButtons(listArr);
+  setTimeout(function() {
+    runCreateButtons(listArr);
+  }, 30000);
+}

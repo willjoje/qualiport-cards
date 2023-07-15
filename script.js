@@ -1,4 +1,4 @@
-const buttonContainer = document.getElementById("button-container");
+var buttonContainer = document.getElementById("button-container");
 var listArr = [];
 
 async function loadData() {
@@ -41,6 +41,9 @@ function createButtons(listArr) {
     image.addEventListener("error", function () {
       // Image failed to load, change background color to red
       card.style.backgroundColor = "red";
+      var textArea = document.getElementById("offlineNotification");
+      textArea.value = `${condominio.nome} \n`;
+
     });
 
     image.addEventListener("load", function () {
@@ -61,7 +64,8 @@ function createButtons(listArr) {
         });
     });
     if (condominio.autonomo) {
-
+      troncoButton.style.backgroundColor = "red";
+      troncoButton.style.color = "white";
     }
     card.appendChild(troncoButton);
 
@@ -146,6 +150,7 @@ function createButtons(listArr) {
 // }
 
 
+
 document.getElementById('search-bar').addEventListener("input", matchingCards);
 document.getElementById('search-bar').addEventListener("change", matchingCards);
 
@@ -181,5 +186,15 @@ function runCreateButtons(listArr) {
   createButtons(listArr);
   setTimeout(function () {
     runCreateButtons(listArr);
+    
+  }, 30000);
+}
+
+var textArea = document.getElementById("offlineNotification");
+
+
+function checkOfflineCond(){
+  setTimeout(function () {
+    buttonContainer.forEach
   }, 30000);
 }

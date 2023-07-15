@@ -16,7 +16,7 @@ async function loadData() {
 loadData();
 
 // Run the loadData function every 5 seconds
-setInterval(loadData,30000);
+setInterval(loadData, 30000);
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
@@ -38,12 +38,12 @@ function createButtons(listArr) {
 
     const image = new Image();
     image.src = `http://${condominio.dominio}:797/mikrotik_logo.png`;
-    image.addEventListener("error", function() {
+    image.addEventListener("error", function () {
       // Image failed to load, change background color to red
       card.style.backgroundColor = "red";
     });
-    
-    image.addEventListener("load", function() {
+
+    image.addEventListener("load", function () {
       // Image is successfully loaded, change background color to green
       card.style.backgroundColor = "green";
     });
@@ -130,25 +130,29 @@ function createButtons(listArr) {
   });
 }
 
-function checkConection(){
-  var cards = document.getElementsByClassName('card');
+// function checkConection(){
+//   var cards = document.getElementsByClassName('card');
 
-  Array.from(cards).forEach(function (card) {
-    var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
-    var tronco = card.getElementsByTagName('button')[0].textContent.toLowerCase();
-    if (name.includes(input) || tronco.includes(input)) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  });
+//   Array.from(cards).forEach(function (card) {
+//     var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
+//     var tronco = card.getElementsByTagName('button')[0].textContent.toLowerCase();
+//     if (name.includes(input) || tronco.includes(input)) {
+//       card.style.display = 'block';
+//     } else {
+//       card.style.display = 'none';
+//     }
+//   });
 
-}
+// }
 
 
-document.getElementById('search-bar').addEventListener('input', function () {
+document.getElementById('search-bar').addEventListener("input", matchingCards);
+document.getElementById('search-bar').addEventListener("change", matchingCards);
+
+function matchingCards() {
   var input = this.value.toLowerCase();
   var cards = document.getElementsByClassName('card');
+  console.log("match executado");
 
   Array.from(cards).forEach(function (card) {
     var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
@@ -159,11 +163,23 @@ document.getElementById('search-bar').addEventListener('input', function () {
       card.style.display = 'none';
     }
   });
-});
+}
+
+document.getElementById('eraser').addEventListener("click", function () {
+  var input = document.getElementById('search-bar');
+  input.value = "";
+  var cards = document.getElementsByClassName('card');
+
+  Array.from(cards).forEach(function (card) {
+    card.style.display = 'block';
+  });
+
+  input.focus();
+})
 
 function runCreateButtons(listArr) {
   createButtons(listArr);
-  setTimeout(function() {
+  setTimeout(function () {
     runCreateButtons(listArr);
   }, 30000);
 }

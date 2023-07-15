@@ -8,13 +8,19 @@
 
 <body>
 	<script type="module" src="script.js"></script>
+	<div class="offline-card">
+		<textarea id="offlineNotification" rows="5" readonly>Condomínios offline...</textarea>
+	  </div>
 	<div class="header">
-		<h1>Search engine</h1>
-		<input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
-	</div>
+			<h1>Search engine</h1>
+			<div id="search-block">
+				<input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
+				<button id="eraser" class="eraser">X</button>
+			</div>
+		</div>
 
 	<div class="card-container" id="card-container">
-		<!-- all cards -->	
+		<!-- all cards -->
 	</div>
 
 </body>

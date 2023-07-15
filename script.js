@@ -1,4 +1,3 @@
-var buttonContainer = document.getElementById("button-container");
 var listArr = [];
 
 async function loadData() {
@@ -15,11 +14,13 @@ async function loadData() {
 // Run the loadData function initially
 loadData();
 
-// Run the loadData function every 5 seconds
+// Run the loadData function every 30 seconds
 setInterval(loadData, 30000);
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
+  var textArea = document.getElementById("offlineNotification");
+  textArea.value = "";
 
   while (cardContainer.firstChild) {
     cardContainer.removeChild(cardContainer.firstChild);
@@ -41,8 +42,7 @@ function createButtons(listArr) {
     image.addEventListener("error", function () {
       // Image failed to load, change background color to red
       card.style.backgroundColor = "red";
-      var textArea = document.getElementById("offlineNotification");
-      textArea.value = `${condominio.nome} \n`;
+      textArea.value += `${condominio.nome} \n`;
 
     });
 
@@ -186,15 +186,8 @@ function runCreateButtons(listArr) {
   createButtons(listArr);
   setTimeout(function () {
     runCreateButtons(listArr);
-    
-  }, 30000);
+  }, 60000);
 }
 
-var textArea = document.getElementById("offlineNotification");
 
 
-function checkOfflineCond(){
-  setTimeout(function () {
-    buttonContainer.forEach
-  }, 30000);
-}

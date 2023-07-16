@@ -15,7 +15,7 @@ async function loadData() {
 loadData();
 
 // Run the loadData function every 30 seconds
-setInterval(loadData, 30000);
+setInterval(loadData, 60000);
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
@@ -45,6 +45,7 @@ function createButtons(listArr) {
       textArea.value += `${condominio.nome} \n`;
 
     });
+
 
     image.addEventListener("load", function () {
       // Image is successfully loaded, change background color to green
@@ -182,12 +183,12 @@ document.getElementById('eraser').addEventListener("click", function () {
   input.focus();
 })
 
-function runCreateButtons(listArr) {
-  createButtons(listArr);
-  setTimeout(function () {
-    runCreateButtons(listArr);
-  }, 60000);
-}
+// function runCreateButtons(listArr) {
+//   createButtons(listArr);
+//   setTimeout(function () {
+//     runCreateButtons(listArr);
+//   }, 60000);
+// }
 
 
 

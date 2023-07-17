@@ -14,7 +14,7 @@ async function loadData() {
 // Run the loadData function initially
 loadData();
 
-// Run the loadData function every 30 seconds
+// Run the loadData function every 60 seconds
 setInterval(loadData, 60000);
 
 function createButtons(listArr) {
@@ -131,26 +131,17 @@ function createButtons(listArr) {
       card.appendChild(dvrButton);
     }
 
+    const detailsButton = document.createElement("button");
+    detailsButton.innerHTML = "Detalhes";
+    detailsButton.addEventListener("click", function(){
+
+    })
+    card.appendChild(detailsButton);
+    detailsButton.className = "button";
+
     cardContainer.appendChild(card);
   });
 }
-
-// function checkConection(){
-//   var cards = document.getElementsByClassName('card');
-
-//   Array.from(cards).forEach(function (card) {
-//     var name = card.getElementsByTagName('p')[0].textContent.toLowerCase();
-//     var tronco = card.getElementsByTagName('button')[0].textContent.toLowerCase();
-//     if (name.includes(input) || tronco.includes(input)) {
-//       card.style.display = 'block';
-//     } else {
-//       card.style.display = 'none';
-//     }
-//   });
-
-// }
-
-
 
 document.getElementById('search-bar').addEventListener("input", matchingCards);
 document.getElementById('search-bar').addEventListener("change", matchingCards);
@@ -182,13 +173,6 @@ document.getElementById('eraser').addEventListener("click", function () {
 
   input.focus();
 })
-
-// function runCreateButtons(listArr) {
-//   createButtons(listArr);
-//   setTimeout(function () {
-//     runCreateButtons(listArr);
-//   }, 60000);
-// }
 
 
 

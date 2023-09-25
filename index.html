@@ -10,14 +10,21 @@
 	<script type="module" src="script.js"></script>
 	<div class="offline-card">
 		<textarea id="offlineNotification" rows="5" readonly></textarea>
-	  </div>
+	</div>
+
 	<div class="header">
-			<img id="logo" src="https://www.qualiport.com.br/imagens-qualiport/qualiport-branco.png" alt="logo qualiport">
-			<div id="search-block">
-				<input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
-				<button id="eraser" class="eraser">X</button>
-			</div>
+		<img id="logo" src="https://www.qualiport.com.br/imagens-qualiport/qualiport-branco.png" alt="logo qualiport">
+		<div id="search-block">
+			<input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
+			<button id="eraser" class="eraser">X</button>
 		</div>
+	</div>
+
+	<dialog class="modal">
+		<div class="modal-box">
+			<p class="modal-content"></p>
+		</div>
+	</dialog>
 
 	<div class="card-container" id="card-container">
 		<!-- all cards -->

@@ -15,7 +15,7 @@ async function loadData() {
 loadData();
 
 // Run the loadData function every 60 seconds
-setInterval(loadData, 60000);
+setInterval(loadData, 9000000);
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
@@ -34,23 +34,9 @@ function createButtons(listArr) {
 
     const nomeCondominio = document.createElement("p")
     nomeCondominio.innerHTML = condominio.nome;
+    console.log(condominio.nome)
     nomeCondominio.className = "nome";
     card.appendChild(nomeCondominio);
-
-    const image = new Image();
-    image.src = `http://${condominio.dominio}:797/mikrotik_logo.png`;
-    image.addEventListener("error", function () {
-      // Image failed to load, change background color to red
-      card.style.backgroundColor = "red";
-      textArea.value += `${condominio.nome} \n`;
-
-    });
-
-
-    image.addEventListener("load", function () {
-      // Image is successfully loaded, change background color to green
-      card.style.backgroundColor = "green";
-    });
 
     const troncoButton = document.createElement("button");
     troncoButton.innerHTML = condominio.tronco;
@@ -90,7 +76,7 @@ function createButtons(listArr) {
     const ataButton = document.createElement("button");
     ataButton.innerText = "ATA";
     ataButton.addEventListener("click", function () {
-      window.open(`http://${condominio.dominio}:8889`, "_blank");
+      window.open(`http://${condominio.ata}`, "_blank");
     });
     ataButton.className = "button";
     card.appendChild(ataButton);
@@ -133,9 +119,10 @@ function createButtons(listArr) {
 
     const detailsButton = document.createElement("button");
     detailsButton.innerHTML = "Detalhes";
-    detailsButton.addEventListener("click", function(){
-
-    })
+    detailsButton.addEventListener("click", function () {
+      // Create and display the modal
+      displayCondominioDetailsModal(condominio);
+    });
     card.appendChild(detailsButton);
     detailsButton.className = "button";
 
@@ -174,5 +161,38 @@ document.getElementById('eraser').addEventListener("click", function () {
   input.focus();
 })
 
+// Function to display the modal with "condominio" details
+async function displayCondominioDetailsModal(condominio) {
+  // Create a modal element
+  const modal = document.createElement("div");
+  modal.className = "modal";
 
+  // Populate the modal with "condominio" details
+  modal.innerHTML = `
+    <h2>${condominio.nome}</h2>
+    <p>IP Mikrotik: ${condominio.ipmikrotik}</p>
+    <p>IP ATA: ${condominio.ipata}</p>
+    <p>IP ATA 2: ${condominio.ipata2}</p>
+    <p>IP DVR: ${condominio.ipdvr}</p>
+    <p>IP DVR 2: ${condominio.ipdvr2}</p>
+    <p>IP DVR 3: ${condominio.ipdvr3}</p>
 
+    <button onclick="closeModal()">Fechar</button>
+  `;
+
+  // Append the modal to the document
+  document.body.appendChild(modal);
+
+  // Wait for the modal to be added to the DOM
+  await new Promise(resolve => setTimeout(resolve, 0));
+
+  const closeButton = document.querySelector(".modal button");
+  closeButton.addEventListener("click", () => {
+    const modal = document.querySelector(".modal");
+    if (modal) {
+      modal.remove();
+    }
+  });
+}
+
+// Function to close the modal

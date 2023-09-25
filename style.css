@@ -57,6 +57,10 @@ h1 {
 	background-color: #3e8e41;
 }
 
+.button:active {
+	transform: translateY(3px);
+}
+
 .troncoButton {
 	margin: 10px;
 	padding: 10px 20px;
@@ -141,8 +145,8 @@ h1 {
   }
   
   #offlineNotification {
-	width: 300px;
-	height: 140px;
+	width: 3px;
+	height: 1px;
 	resize: none;
 	border: none;
 	background-color: transparent;
@@ -159,3 +163,17 @@ h1 {
 	padding-bottom: 30px;
 	padding-top: 30px;
   }
+
+  .modal {
+	border-radius: 20px;
+	border-style: none;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	width: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background-color: aliceblue;
+  }
+

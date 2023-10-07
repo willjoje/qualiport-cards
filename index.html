@@ -2,33 +2,74 @@
 <html>
 
 <head>
-	<title>Domain Buttons</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Domain Buttons</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Esconder o conteúdo principal por padrão */
+        .main-content, .header{
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
-	<script type="module" src="script.js"></script>
-	<div class="offline-card">
-		<textarea id="offlineNotification" rows="5" readonly></textarea>
-	</div>
+    <script type="module" src="script.js"></script>
+    <div class="offline-card">
+        <textarea id="offlineNotification" rows="5" readonly></textarea>
+    </div>
 
-	<div class="header">
-		<img id="logo" src="https://www.qualiport.com.br/imagens-qualiport/qualiport-branco.png" alt="logo qualiport">
-		<div id="search-block">
-			<input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
-			<button id="eraser" class="eraser">X</button>
-		</div>
-	</div>
+    <div class="header">
+        <img id="logo" src="https://www.qualiport.com.br/imagens-qualiport/qualiport-branco.png" alt="logo qualiport">
+        <div id="search-block">
+            <input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
+            <button id="eraser" class="eraser">X</button>
+        </div>
+    </div>
 
-	<dialog class="modal">
-		<div class="modal-box">
-			<p class="modal-content"></p>
-		</div>
-	</dialog>
+    <dialog class="modal">
+        <div class="modal-box">
+            <p class="modal-content"></p>
+        </div>
+    </dialog>
 
-	<div class="card-container" id="card-container">
-		<!-- all cards -->
-	</div>
+    <!-- Formulário de autenticação -->
+    <div class="login-container">
+        <form id="login-form">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <div class="main-content">
+        <!-- Conteúdo principal aqui -->
+        <div class="card-container" id="card-container">
+            <!-- all cards -->
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("login-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            // Verificar se o usuário e a senha estão corretos
+            if (username === "Qualiport" && password === "QualiportSuporteTi") {
+                // Exibir o conteúdo principal após o login bem-sucedido
+                document.querySelector(".main-content").style.display = "block";
+                document.querySelector(".header").style.display = "block";
+                document.querySelector(".login-container").style.display = "none";
+
+                alert("Login bem-sucedido. Você agora tem acesso ao site.");
+            } else {
+                // Exibir mensagem de erro se as credenciais forem incorretas
+                alert("Credenciais inválidas. Tente novamente.");
+            }
+        });
+    </script>
 
 </body>
 

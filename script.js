@@ -4,7 +4,7 @@ async function loadData() {
   try {
     const response = await fetch('cond-data.json');
     const data = await response.json();
-    const listArr = data.cards;
+    listArr = data.cards;
     createButtons(listArr);
   } catch (error) {
     console.log('Error:', error);
@@ -16,6 +16,94 @@ loadData();
 
 // Run the loadData function every 60 seconds
 setInterval(loadData, 9000000);
+
+
+
+
+
+// function createButtons(text, clickHandler) {
+//   const button = document.createElement("button");
+//   button.innerHTML = text;
+//   button.className = "button";
+//   button.addEventListener("click", clickHandler);
+//   return button;
+// }
+
+// listArr.forEach((condominio) => {
+//   let card = document.createElement("div");
+//   card.className = "card";
+//   card.id = "card";
+
+//   // Mostrar o nome do condomínio
+//   const nomeCondominio = document.createElement("p")
+//   nomeCondominio.innerHTML = condominio.nome;
+//   nomeCondominio.className = "nome";
+
+//   // Criar o botão Tronco
+//   const troncoButton = createButtons(condominio.tronco, function (event) {
+//     event.preventDefault();
+//     navigator.clipboard.writeText(condominio.tronco).catch(function (err) {
+//       console.error("Erro ao copiar tronco: ", err)
+//     })
+//   })
+
+//   // Criar o botão do Mikrotik
+//   const mikrotikButton = createButtons("Mikrotik", function (event) {
+//     event.preventDefault();
+//     const url = `${condominio.dominio}:7890`;
+//     navigator.clipboard.writeText(url).catch(function (err) {
+//       console.error("Erro ao copiar o link: ", err)
+//     })
+//   })
+
+//   // Criar o botão do ATA
+//   const ataButton = createButtons("ATA", function (event) {
+//     ataButton.addEventListener("click", function () {
+//       window.open(`http://${condominio.ata}`, "_blank");
+//     });
+//   })
+
+//   // Criar o botão da Guarita
+//   const guaritaButton = createButtons("Guarita", function (event) {
+//     guaritaButton.addEventListener("click", function () {
+//       window.open(`http://${condominio.dominio}:8093`, "_blank");
+//     });
+//   })
+
+//   // Criar o botão do DVR 
+//   const dvrButton = createButtons("DVR", function (event) {
+//     dvrButton.addEventListener("click", function () {
+//       window.open(`http://${condominio.dominiodvr}`, "_blank");
+//     });
+//   })
+
+//   // Criar o botão do DVR 2
+//   const dvrButton2 = createButtons("DVR2", function (event) {
+//     dvrButton2.addEventListener("click", function () {
+//       window.open(`http://${condominio.dominiodvr2}`, "_blank");
+//     });
+//   })
+
+//   // Criar o botão do DVR 3 
+//   const dvrButton3 = createButtons("DVR3", function (event) {
+//     dvrButton3.addEventListener("click", function () {
+//       window.open(`http://${condominio.dominiodvr3}`, "_blank");
+//     });
+//   })
+
+//   // Criar o botão de detalhes
+//   const detailsButton = createButtons("Detalhes", function (event) {
+//     detailsButton.addEventListener("click", function () {
+//       displayCondominioDetailsModal(condominio);
+//     });
+//   })
+
+  
+// })
+
+
+
+
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
@@ -171,12 +259,11 @@ async function displayCondominioDetailsModal(condominio) {
   modal.innerHTML = `
     <h2>${condominio.nome}</h2>
     <p>IP Mikrotik: ${condominio.ipmikrotik}</p>
-    <p>IP ATA: ${condominio.ipata}</p>
+    <a>IP ATA: </a><a href="http://${condominio.ipata}">${condominio.ipata}</a>
     <p>IP ATA 2: ${condominio.ipata2}</p>
     <p>IP DVR: ${condominio.ipdvr}</p>
     <p>IP DVR 2: ${condominio.ipdvr2}</p>
     <p>IP DVR 3: ${condominio.ipdvr3}</p>
-
     <button onclick="closeModal()">Fechar</button>
   `;
 

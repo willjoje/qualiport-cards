@@ -14,8 +14,6 @@ async function loadData() {
 // Run the loadData function initially
 loadData();
 
-// Run the loadData function every 60 seconds
-setInterval(loadData, 9000000);
 
 
 
@@ -98,7 +96,7 @@ setInterval(loadData, 9000000);
 //     });
 //   })
 
-  
+
 // })
 
 
@@ -254,17 +252,19 @@ async function displayCondominioDetailsModal(condominio) {
   // Create a modal element
   const modal = document.createElement("div");
   modal.className = "modal";
+  modal.id = "condominioModal"; // Defina um ID para o modal
 
   // Populate the modal with "condominio" details
   modal.innerHTML = `
-    <h2>${condominio.nome}</h2>
+    <div id="detalheHeader"><h2>${condominio.nome}</h2>
+    <button id="closeButton" class="button">X</button></div>
     <p>IP Mikrotik: ${condominio.ipmikrotik}</p>
     <a>IP ATA: </a><a href="http://${condominio.ipata}">${condominio.ipata}</a>
     <p>IP ATA 2: ${condominio.ipata2}</p>
     <p>IP DVR: ${condominio.ipdvr}</p>
     <p>IP DVR 2: ${condominio.ipdvr2}</p>
     <p>IP DVR 3: ${condominio.ipdvr3}</p>
-    <button onclick="closeModal()">Fechar</button>
+    <p>Endereço: ${condominio.endereco}</p>
   `;
 
   // Append the modal to the document
@@ -273,12 +273,11 @@ async function displayCondominioDetailsModal(condominio) {
   // Wait for the modal to be added to the DOM
   await new Promise(resolve => setTimeout(resolve, 0));
 
-  const closeButton = document.querySelector(".modal button");
+  // Use event listener to close the modal
+  const closeButton = document.getElementById("closeButton");
   closeButton.addEventListener("click", () => {
-    const modal = document.querySelector(".modal");
-    if (modal) {
-      modal.remove();
-    }
+    const modal = document.getElementById("condominioModal");
+    modal.remove();
   });
 }
 

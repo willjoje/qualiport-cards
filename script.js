@@ -258,7 +258,7 @@ async function displayCondominioDetailsModal(condominio) {
   modal.innerHTML = `
     <div id="detalheHeader"><h2>${condominio.nome}</h2>
     <button id="closeButton" class="button">X</button></div>
-    <p>IP Mikrotik: ${condominio.ipmikrotik}</p>
+    <p>IP Mikrotik: ${condominio.ipmikrotik}:7890</p>
     <a>IP ATA: </a><a href="http://${condominio.ipata}">${condominio.ipata}</a>
     <p>IP ATA 2: ${condominio.ipata2}</p>
     <p>IP DVR: ${condominio.ipdvr}</p>

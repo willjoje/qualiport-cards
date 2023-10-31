@@ -258,8 +258,9 @@ async function displayCondominioDetailsModal(condominio) {
   modal.innerHTML = `
     <div id="detalheHeader"><h2>${condominio.nome}</h2>
     <button id="closeButton" class="button">X</button></div>
-    <p>IP Mikrotik: ${condominio.ipmikrotik}:7890</p>
-    <a>IP ATA: </a><a href="http://${condominio.ipata}">${condominio.ipata}</a>
+    <button id="ipmikrotik" class="button">Mikrotik IP</button></div>
+    <button id="ipata" class="button">ATA IP</button></div>
+    <button id="ipguarita" class="button">Guarita IP</button></div>
     <p>IP ATA 2: ${condominio.ipata2}</p>
     <p>IP DVR: ${condominio.ipdvr}</p>
     <p>IP DVR 2: ${condominio.ipdvr2}</p>
@@ -279,6 +280,27 @@ async function displayCondominioDetailsModal(condominio) {
     const modal = document.getElementById("condominioModal");
     modal.remove();
   });
+
+  // Use event listener to close the modal
+  const mikrotikButton = document.getElementById("ipmikrotik");
+  mikrotikButton.addEventListener("click", function (event) {
+    event.preventDefault();
+    const url = `${condominio.ipmikrotik}:7890`;
+    navigator.clipboard
+      .writeText(url)
+      .then(function () {
+        // alert(`${item}:7894 copiado`); //alerta ao copiar o link do mikrotik
+      })
+      .catch(function (err) {
+        console.error("Erro ao copiar o link: ", err);
+      });
+  });
+
+  const ataButton = document.getElementById("ipata");
+  ataButton.addEventListener("click", function (event) {
+    window.open(`http://${condominio.ipata}`, "_blank");
+  });
 }
+
 
 // Function to close the modal

@@ -271,8 +271,8 @@ async function displayCondominioDetailsModal(condominio) {
   // Append the modal to the document
   document.body.appendChild(modal);
 
-  // Wait for the modal to be added to the DOM
-  await new Promise(resolve => setTimeout(resolve, 0));
+  // // Wait for the modal to be added to the DOM
+  // await new Promise(resolve => setTimeout(resolve, 0));
 
   // Use event listener to close the modal
   const closeButton = document.getElementById("closeButton");
@@ -302,5 +302,3 @@ async function displayCondominioDetailsModal(condominio) {
   });
 }
 
-
-// Function to close the modal

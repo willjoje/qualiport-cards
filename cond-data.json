@@ -16,7 +16,10 @@
       "dominiodvr3": "",
       "tronco": "2156",
       "ramal": "21561",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "Rua Demóstenes Olinda, 160 - Madalena",
       "linkmaps": "https://maps.app.goo.gl/ozQyHxf65bpcpeMb6",
@@ -38,7 +41,10 @@
       "dominiodvr3": "",
       "tronco": "2047",
       "ramal": "20471",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -60,7 +66,10 @@
       "dominiodvr3": "",
       "tronco": "2118",
       "ramal": "21181",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -82,7 +91,10 @@
       "dominiodvr3": "",
       "tronco": "2050",
       "ramal": "20501",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -105,7 +117,10 @@
       "tronco": "3766",
       "ramal": "37661",
       "ramal2": "37662",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -127,7 +142,10 @@
       "dominiodvr3": "",
       "tronco": "2084",
       "ramal": "20841",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -149,7 +167,35 @@
       "dominiodvr3": "",
       "tronco": "2098",
       "ramal": "20981",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
+      "autonomo": false,
+      "endereco": "",
+      "linkmaps": "",
+      "zona": ""
+    },
+    {
+      "id": "0061",
+      "nome": "Amboise",
+      "dominio": "cond-amboise.dyndns.org",
+      "ata": "cond-amboise.dyndns.org:8889",
+      "ipmikrotik": "192.168.27.161",
+      "ipata": "192.168.27.164",
+      "ipguarita": "192.168.27.167",
+      "ipdvr": "192.168.27.165",
+      "ipdvr2": "",
+      "ipdvr3": "",
+      "dominiodvr": "cond-amboise.dyndns.org:21751",
+      "dominiodvr2": "",
+      "dominiodvr3": "",
+      "tronco": "2175",
+      "ramal": "21751",
+      "faciais": {
+        "rua": "21752",
+        "eclusa": "21753"
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -171,7 +217,10 @@
       "dominiodvr3": "",
       "tronco": "2140",
       "ramal": "21401",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -193,7 +242,10 @@
       "dominiodvr3": "",
       "tronco": "2055",
       "ramal": "20551",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -212,7 +264,10 @@
       "dominiodvr3": "",
       "tronco": "2078",
       "ramal": "20781",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -234,7 +289,10 @@
       "dominiodvr3": "",
       "tronco": "2012",
       "ramal": "20121",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -256,7 +314,10 @@
       "dominiodvr3": "",
       "tronco": "2027",
       "ramal": "20271",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -278,7 +339,10 @@
       "dominiodvr3": "",
       "tronco": "2028",
       "ramal": "20281",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -300,7 +364,10 @@
       "dominiodvr3": "",
       "tronco": "2139",
       "ramal": "21391",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -322,7 +389,10 @@
       "dominiodvr3": "",
       "tronco": "2129",
       "ramal": "21291",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -344,7 +414,10 @@
       "dominiodvr3": "",
       "tronco": "2090",
       "ramal": "20901",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -366,7 +439,10 @@
       "dominiodvr3": "",
       "tronco": "2045",
       "ramal": "20451",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -388,7 +464,10 @@
       "dominiodvr3": "",
       "tronco": "2035",
       "ramal": "20351",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -410,7 +489,10 @@
       "dominiodvr3": "",
       "tronco": "3673",
       "ramal": "36731",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -427,12 +509,15 @@
       "ipdvr": "192.168.12.165",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "cond-bali.dyndns.org:",
+      "dominiodvr": "cond-bali.dyndns.org:20731",
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2073",
       "ramal": "20731",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -451,7 +536,10 @@
       "dominiodvr3": "",
       "tronco": "4019",
       "ramal": "40191",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -473,7 +561,10 @@
       "dominiodvr3": "",
       "tronco": "2107",
       "ramal": "21071",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -492,7 +583,10 @@
       "dominiodvr3": "",
       "tronco": "3001",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -511,7 +605,10 @@
       "dominiodvr3": "",
       "tronco": "2054",
       "ramal": "20541",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -533,7 +630,10 @@
       "dominiodvr3": "",
       "tronco": "2037",
       "ramal": "20371",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -555,7 +655,10 @@
       "dominiodvr3": "cond-bosquedelyon.dyndns.org:20132",
       "tronco": "2013",
       "ramal": "20131",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -577,7 +680,10 @@
       "dominiodvr3": "",
       "tronco": "2087",
       "ramal": "20871",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -599,7 +705,10 @@
       "dominiodvr3": "",
       "tronco": "4017",
       "ramal": "40171",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -621,7 +730,10 @@
       "dominiodvr3": "",
       "tronco": "2120",
       "ramal": "21201",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -643,7 +755,10 @@
       "dominiodvr3": "",
       "tronco": "2000",
       "ramal": "20001",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -665,7 +780,10 @@
       "dominiodvr3": "",
       "tronco": "2108",
       "ramal": "21081",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -687,7 +805,10 @@
       "dominiodvr3": "",
       "tronco": "2077",
       "ramal": "20771",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -706,7 +827,10 @@
       "dominiodvr3": "",
       "tronco": "3771",
       "ramal": "37711",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -728,7 +852,10 @@
       "dominiodvr3": "",
       "tronco": "2014",
       "ramal": "20141",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -750,7 +877,10 @@
       "dominiodvr3": "",
       "tronco": "3344",
       "ramal": "33441",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -772,7 +902,10 @@
       "dominiodvr3": "",
       "tronco": "2167",
       "ramal": "21671",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -794,7 +927,10 @@
       "dominiodvr3": "",
       "tronco": "2115",
       "ramal": "21151",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -816,7 +952,10 @@
       "dominiodvr3": "",
       "tronco": "2122",
       "ramal": "21221",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -838,7 +977,10 @@
       "dominiodvr3": "",
       "tronco": "2101",
       "ramal": "21011",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -860,7 +1002,10 @@
       "dominiodvr3": "",
       "tronco": "2133",
       "ramal": "21331",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -882,7 +1027,10 @@
       "dominiodvr3": "",
       "tronco": "4072",
       "ramal": "40721",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -905,7 +1053,10 @@
       "dominiodvr3": "",
       "tronco": "2022",
       "ramal": "20221",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -927,7 +1078,10 @@
       "dominiodvr3": "cond-costadorio.dyndns.org:20393",
       "tronco": "2039",
       "ramal": "20391",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -949,7 +1103,10 @@
       "dominiodvr3": "",
       "tronco": "2162",
       "ramal": "21621",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -971,7 +1128,10 @@
       "dominiodvr3": "",
       "tronco": "2053",
       "ramal": "20531",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -993,7 +1153,10 @@
       "dominiodvr3": "cond-costavicentina.dyndns.org:20053",
       "tronco": "2053",
       "ramal": "20531",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1015,7 +1178,10 @@
       "dominiodvr3": "cond-cotedazulr.dyndns.org:20663",
       "tronco": "2066",
       "ramal": "20661",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1037,7 +1203,10 @@
       "dominiodvr3": "",
       "tronco": "2031",
       "ramal": "20311",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1059,7 +1228,10 @@
       "dominiodvr3": "",
       "tronco": "2030",
       "ramal": "20301",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1081,7 +1253,10 @@
       "dominiodvr3": "",
       "tronco": "2154",
       "ramal": "21541",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -1100,7 +1275,10 @@
       "dominiodvr3": "",
       "tronco": "4020",
       "ramal": "40201",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1122,7 +1300,10 @@
       "dominiodvr3": "",
       "tronco": "2034",
       "ramal": "20341",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1144,7 +1325,10 @@
       "dominiodvr3": "",
       "tronco": "2072",
       "ramal": "20721",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1166,7 +1350,10 @@
       "dominiodvr3": "",
       "tronco": "2097",
       "ramal": "20971",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1188,7 +1375,10 @@
       "dominiodvr3": "",
       "tronco": "2009",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1210,7 +1400,10 @@
       "dominiodvr3": "",
       "tronco": "2144",
       "ramal": "21441",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1232,7 +1425,10 @@
       "dominiodvr3": "",
       "tronco": "2157",
       "ramal": "21571",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1254,7 +1450,10 @@
       "dominiodvr3": "",
       "tronco": "2029",
       "ramal": "20291",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1278,7 +1477,10 @@
       "dominiodvr3": "",
       "tronco": "3906",
       "ramal": "39061",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1300,7 +1502,10 @@
       "dominiodvr3": "",
       "tronco": "2159",
       "ramal": "21591",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1322,7 +1527,37 @@
       "dominiodvr3": "",
       "tronco": "4022",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
+      "autonomo": false,
+      "endereco": "",
+      "linkmaps": "",
+      "zona": ""
+    },
+    {
+      "id": "0551",
+      "nome": "Flamboyants",
+      "dominio": "cond-pracaflamboyants.dyndns.org",
+      "ata": "cond-pracaflamboyants.dyndns.org:8889",
+      "ipmikrotik": "192.168.25.33",
+      "ipata": "192.168.29.36",
+      "ipguarita": "192.168.29.39",
+      "ipdvr": "192.168.29.37",
+      "ipdvr2": "",
+      "ipdvr3": "",
+      "dominiodvr": "cond-pracaflamboyants.dyndns.org:21481",
+      "dominiodvr2": "",
+      "dominiodvr3": "",
+      "tronco": "2148",
+      "ramal": "21481",
+      "faciais": {
+        "Rua": "21482",
+        "Eclusa": "21483",
+        "Porta Rampa": "21483"
+
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1344,7 +1579,10 @@
       "dominiodvr3": "",
       "tronco": "3675",
       "ramal": "36751",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1368,7 +1606,10 @@
       "dominiodvr3": "",
       "tronco": "2105",
       "ramal": "21051",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1390,7 +1631,10 @@
       "dominiodvr3": "",
       "tronco": "2060",
       "ramal": "20601",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1412,7 +1656,10 @@
       "dominiodvr3": "",
       "tronco": "2032",
       "ramal": "20321",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1434,7 +1681,10 @@
       "dominiodvr3": "",
       "tronco": "",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1456,7 +1706,10 @@
       "dominiodvr3": "",
       "tronco": "2011",
       "ramal": "20111",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1478,7 +1731,10 @@
       "dominiodvr3": "",
       "tronco": "2145",
       "ramal": "21451",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1500,7 +1756,10 @@
       "dominiodvr3": "",
       "tronco": "2142",
       "ramal": "21421",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1511,18 +1770,21 @@
       "nome": "Guinles Park",
       "dominio": "cond-guinlespark.dyndns.org",
       "ata": "cond-guinlespark.dyndns.org:8889",
-      "ipmikrotik": "",
-      "ipata": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ipmikrotik": "192.168.25.129",
+      "ipata": "192.168.26.100",
+      "ipguarita": "192.168.26.103",
+      "ipdvr": "192.168.26.101",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
-      "dominiodvr2": "",
+      "dominiodvr": "cond-guinlespark.dyndns.org:20541",
+      "dominiodvr2": "cond-guinlespark.dyndns.org:20544",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": "",
-      "facial": "",
+      "tronco": "2054",
+      "ramal": "20541",
+      "faciais": {
+        "rua": "21552",
+        "eclusa": "21553"
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1544,7 +1806,10 @@
       "dominiodvr3": "",
       "tronco": "3623",
       "ramal": "36231",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1568,7 +1833,10 @@
       "dominiodvr3": "",
       "tronco": "3296",
       "ramal": "32961",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1590,7 +1858,10 @@
       "dominiodvr3": "",
       "tronco": "2141",
       "ramal": "21411",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1612,7 +1883,10 @@
       "dominiodvr3": "",
       "tronco": "2117",
       "ramal": "21171",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1634,7 +1908,10 @@
       "dominiodvr3": "",
       "tronco": "2007",
       "ramal": "20071",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1656,7 +1933,10 @@
       "dominiodvr3": "",
       "tronco": "2079",
       "ramal": "20791",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1678,7 +1958,10 @@
       "dominiodvr3": "",
       "tronco": "2089",
       "ramal": "20891",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1700,7 +1983,10 @@
       "dominiodvr3": "",
       "tronco": "2103",
       "ramal": "21031",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1722,7 +2008,10 @@
       "dominiodvr3": "",
       "tronco": "2146",
       "ramal": "21461",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1744,7 +2033,10 @@
       "dominiodvr3": "",
       "tronco": "",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1766,7 +2058,10 @@
       "dominiodvr3": "",
       "tronco": "2113",
       "ramal": "21131",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1788,7 +2083,10 @@
       "dominiodvr3": "",
       "tronco": "2070",
       "ramal": "20701",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1796,21 +2094,24 @@
     },
     {
       "id": "073",
-      "nome": "Jaqueira Parklane (desativado)",
+      "nome": "Jaqueira Parklane",
       "dominio": "cond-jaqueiraparklane.dyndns.org",
-      "ata": "",
-      "ipmikrotik": "",
-      "ipata": "",
-      "ipguarita": "",
-      "ipdvr": "",
+      "ata": "cond-jaqueiraparklane.dyndns.org:8889",
+      "ipmikrotik": "192.168.8.129",
+      "ipata": "192.168.8.154",
+      "ipguarita": "192.168.8.135",
+      "ipdvr": "192.168.8.133",
       "ipdvr2": "",
       "ipdvr3": "",
-      "dominiodvr": "",
+      "dominiodvr": "cond-jaqueiraparklane.dyndns.org:20411",
       "dominiodvr2": "",
       "dominiodvr3": "",
-      "tronco": "",
-      "ramal": "",
-      "facial": "",
+      "tronco": "2041",
+      "ramal": "20411",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1832,7 +2133,10 @@
       "dominiodvr3": "",
       "tronco": "2001",
       "ramal": "20011",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1854,7 +2158,10 @@
       "dominiodvr3": "",
       "tronco": "2062",
       "ramal": "20621",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1876,7 +2183,10 @@
       "dominiodvr3": "",
       "tronco": "2136",
       "ramal": "21361",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1898,7 +2208,10 @@
       "dominiodvr3": "",
       "tronco": "2083",
       "ramal": "20831",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1920,7 +2233,10 @@
       "dominiodvr3": "",
       "tronco": "2086",
       "ramal": "20861",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1942,7 +2258,10 @@
       "dominiodvr3": "",
       "tronco": "2151",
       "ramal": "21511",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1964,7 +2283,10 @@
       "dominiodvr3": "",
       "tronco": "2149",
       "ramal": "21491",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -1986,7 +2308,10 @@
       "dominiodvr3": "",
       "tronco": "2054",
       "ramal": "20541",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2008,7 +2333,35 @@
       "dominiodvr3": "",
       "tronco": "2063",
       "ramal": "20631",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
+      "autonomo": false,
+      "endereco": "",
+      "linkmaps": "",
+      "zona": ""
+    },
+    {
+      "id": "0801",
+      "nome": "Lady Fabiana",
+      "dominio": "cond-ladyfabiana.dyndns.org",
+      "ata": "cond-ladyfabiana.dyndns.org:8889",
+      "ipmikrotik": "192.168.27.193",
+      "ipata": "192.168.27.196",
+      "ipguarita": "192.168.27.199",
+      "ipdvr": "192.168.27.197",
+      "ipdvr2": "",
+      "ipdvr3": "",
+      "dominiodvr": "cond-ladyfabiana.dyndns.org:21761",
+      "dominiodvr2": "",
+      "dominiodvr3": "",
+      "tronco": "2176",
+      "ramal": "21761",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2030,7 +2383,10 @@
       "dominiodvr3": "",
       "tronco": "2125",
       "ramal": "21251",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2052,7 +2408,10 @@
       "dominiodvr3": "",
       "tronco": "3716",
       "ramal": "37161",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2074,7 +2433,10 @@
       "dominiodvr3": "",
       "tronco": "2019",
       "ramal": "20191",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2096,7 +2458,10 @@
       "dominiodvr3": "",
       "tronco": "2126",
       "ramal": "21261",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2118,7 +2483,10 @@
       "dominiodvr3": "",
       "tronco": "2033",
       "ramal": "20331",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2140,7 +2508,10 @@
       "dominiodvr3": "",
       "tronco": "2088",
       "ramal": "20881",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -2159,7 +2530,10 @@
       "dominiodvr3": "",
       "tronco": "2065",
       "ramal": "20651",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2181,7 +2555,10 @@
       "dominiodvr3": "",
       "tronco": "2026",
       "ramal": "20261",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2203,7 +2580,10 @@
       "dominiodvr3": "",
       "tronco": "2114",
       "ramal": "21141",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2225,7 +2605,10 @@
       "dominiodvr3": "",
       "tronco": "3444",
       "ramal": "34441",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2247,7 +2630,10 @@
       "dominiodvr3": "",
       "tronco": "2161",
       "ramal": "21614",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2269,7 +2655,10 @@
       "dominiodvr3": "",
       "tronco": "2085",
       "ramal": "20851",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2291,7 +2680,10 @@
       "dominiodvr3": "",
       "tronco": "2076",
       "ramal": "20761",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2313,7 +2705,10 @@
       "dominiodvr3": "",
       "tronco": "2099",
       "ramal": "20991",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2335,7 +2730,10 @@
       "dominiodvr3": "",
       "tronco": "2061",
       "ramal": "20611",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2357,7 +2755,10 @@
       "dominiodvr3": "",
       "tronco": "2123",
       "ramal": "21231",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2379,7 +2780,10 @@
       "dominiodvr3": "",
       "tronco": "2124",
       "ramal": "21241",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2401,7 +2805,10 @@
       "dominiodvr3": "",
       "tronco": "2130",
       "ramal": "21301",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2423,7 +2830,10 @@
       "dominiodvr3": "",
       "tronco": "2002",
       "ramal": "20021",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2445,7 +2855,10 @@
       "dominiodvr3": "",
       "tronco": "2110",
       "ramal": "21101",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2467,7 +2880,10 @@
       "dominiodvr3": "",
       "tronco": "2109",
       "ramal": "21091",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2489,7 +2905,10 @@
       "dominiodvr3": "",
       "tronco": "2158",
       "ramal": "21581",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2511,7 +2930,10 @@
       "dominiodvr3": "",
       "tronco": "2024",
       "ramal": "20241",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2533,7 +2955,10 @@
       "dominiodvr3": "",
       "tronco": "2068",
       "ramal": "20681",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2555,7 +2980,10 @@
       "dominiodvr3": "",
       "tronco": "2100",
       "ramal": "21001",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2577,7 +3005,10 @@
       "dominiodvr3": "",
       "tronco": "2048",
       "ramal": "20481",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2599,7 +3030,10 @@
       "dominiodvr3": "",
       "tronco": "2020",
       "ramal": "20201",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2621,7 +3055,10 @@
       "dominiodvr3": "",
       "tronco": "4021",
       "ramal": "40211",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2643,7 +3080,10 @@
       "dominiodvr3": "",
       "tronco": "2119",
       "ramal": "21191",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2665,7 +3105,10 @@
       "dominiodvr3": "",
       "tronco": "2043",
       "ramal": "20431",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2687,7 +3130,10 @@
       "dominiodvr3": "",
       "tronco": "2015",
       "ramal": "20151",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2709,7 +3155,10 @@
       "dominiodvr3": "",
       "tronco": "2057",
       "ramal": "20571",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2731,7 +3180,10 @@
       "dominiodvr3": "",
       "tronco": "2165",
       "ramal": "21651",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2753,7 +3205,10 @@
       "dominiodvr3": "",
       "tronco": "2006",
       "ramal": "20061",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2775,7 +3230,10 @@
       "dominiodvr3": "",
       "tronco": "2064",
       "ramal": "20641",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2797,7 +3255,10 @@
       "dominiodvr3": "",
       "tronco": "2169",
       "ramal": "21691",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "Rua Dona Benvinda de Farias, nº 225",
       "linkmaps": "",
@@ -2819,7 +3280,10 @@
       "dominiodvr3": "",
       "tronco": "2071",
       "ramal": "20711",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2841,7 +3305,10 @@
       "dominiodvr3": "",
       "tronco": "2147",
       "ramal": "21471",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2863,7 +3330,10 @@
       "dominiodvr3": "",
       "tronco": "2116",
       "ramal": "21161",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2885,7 +3355,10 @@
       "dominiodvr3": "",
       "tronco": "2164",
       "ramal": "21641",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2907,7 +3380,10 @@
       "dominiodvr3": "",
       "tronco": "2094",
       "ramal": "20941",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2929,7 +3405,10 @@
       "dominiodvr3": "",
       "tronco": "2052",
       "ramal": "20521",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2951,7 +3430,10 @@
       "dominiodvr3": "",
       "tronco": "2004",
       "ramal": "20041",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2973,7 +3455,10 @@
       "dominiodvr3": "",
       "tronco": "2143",
       "ramal": "21431",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -2995,7 +3480,10 @@
       "dominiodvr3": "",
       "tronco": "2166",
       "ramal": "21661",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3017,7 +3505,10 @@
       "dominiodvr3": "",
       "tronco": "2040",
       "ramal": "20401",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3039,7 +3530,10 @@
       "dominiodvr3": "",
       "tronco": "",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3056,12 +3550,40 @@
       "ipdvr": "192.168.15.5",
       "ipdvr2": "192.168.15.6",
       "ipdvr3": "",
-      "dominiodvr": "20921",
+      "dominiodvr": "cond-pracadasorquideas.dyndns.org:20921",
       "dominiodvr2": "",
       "dominiodvr3": "",
       "tronco": "2092",
       "ramal": "20921",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
+      "autonomo": false,
+      "endereco": "",
+      "linkmaps": "",
+      "zona": ""
+    },
+    {
+      "id": "121",
+      "nome": "Praça das Papoulas",
+      "dominio": "cond-pracadaspapoulas.dyndns.org",
+      "ata": "cond-pracadaspapoulas.dyndns.org:8889",
+      "ipmikrotik": "192.168.27.33",
+      "ipata": "192.168.27.36",
+      "ipguarita": "192.168.27.39",
+      "ipdvr": "192.168.27.37",
+      "ipdvr2": "",
+      "ipdvr3": "",
+      "dominiodvr": "cond-pracadaspapoulas.dyndns.org:21701",
+      "dominiodvr2": "",
+      "dominiodvr3": "",
+      "tronco": "2170",
+      "ramal": "21701",
+      "faciais": {
+        "rua": "21702",
+        "eclusa": "21703"
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3083,7 +3605,10 @@
       "dominiodvr3": "",
       "tronco": "2080",
       "ramal": "20801",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3105,7 +3630,10 @@
       "dominiodvr3": "cond-pracavianacastelo.dyndns.org:21283",
       "tronco": "21281",
       "ramal": "21281",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3127,7 +3655,10 @@
       "dominiodvr3": "",
       "tronco": "2127",
       "ramal": "21271",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3149,7 +3680,10 @@
       "dominiodvr3": "",
       "tronco": "2163",
       "ramal": "21631",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3172,7 +3706,10 @@
       "dominiodvr3": "",
       "tronco": "3213",
       "ramal": "32131",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3194,7 +3731,10 @@
       "dominiodvr3": "",
       "tronco": "2049",
       "ramal": "20491",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3216,7 +3756,10 @@
       "dominiodvr3": "",
       "tronco": "2121",
       "ramal": "21211",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3238,7 +3781,10 @@
       "dominiodvr3": "",
       "tronco": "20951",
       "ramal": "20951",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3260,7 +3806,10 @@
       "dominiodvr3": "",
       "tronco": "",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3282,7 +3831,10 @@
       "dominiodvr3": "",
       "tronco": "3000",
       "ramal": "30001",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3305,7 +3857,10 @@
       "dominiodvr3": "",
       "tronco": "2010",
       "ramal": "20101",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3327,7 +3882,10 @@
       "dominiodvr3": "",
       "tronco": "2137",
       "ramal": "21371",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3349,7 +3907,10 @@
       "dominiodvr3": "",
       "tronco": "2069",
       "ramal": "20691",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3371,7 +3932,10 @@
       "dominiodvr3": "",
       "tronco": "2091",
       "ramal": "20911",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3393,7 +3957,10 @@
       "dominiodvr3": "",
       "tronco": "2112",
       "ramal": "21121",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3415,7 +3982,10 @@
       "dominiodvr3": "",
       "tronco": "3686",
       "ramal": "36861",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3437,7 +4007,10 @@
       "dominiodvr3": "",
       "tronco": "",
       "ramal": "",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3459,7 +4032,10 @@
       "dominiodvr3": "",
       "tronco": "3674",
       "ramal": "36741",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3481,7 +4057,10 @@
       "dominiodvr3": "",
       "tronco": "2150",
       "ramal": "21501",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3503,7 +4082,10 @@
       "dominiodvr3": "",
       "tronco": "2155",
       "ramal": "21551",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3525,7 +4107,10 @@
       "dominiodvr3": "",
       "tronco": "3904",
       "ramal": "39041",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3547,7 +4132,10 @@
       "dominiodvr3": "",
       "tronco": "3275",
       "ramal": "32751",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3569,7 +4157,10 @@
       "dominiodvr3": "",
       "tronco": "2038",
       "ramal": "20381",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3591,7 +4182,10 @@
       "dominiodvr3": "",
       "tronco": "2082",
       "ramal": "20821",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3613,7 +4207,10 @@
       "dominiodvr3": "",
       "tronco": "3917",
       "ramal": "39171",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3635,7 +4232,10 @@
       "dominiodvr3": "",
       "tronco": "2036",
       "ramal": "20361",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3657,7 +4257,10 @@
       "dominiodvr3": "",
       "tronco": "2075",
       "ramal": "20751",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3679,7 +4282,10 @@
       "dominiodvr3": "",
       "tronco": "3676",
       "ramal": "36761",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3701,7 +4307,10 @@
       "dominiodvr3": "",
       "tronco": "2056",
       "ramal": "20561",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3723,7 +4332,10 @@
       "dominiodvr3": "",
       "tronco": "2016",
       "ramal": "20161",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3745,7 +4357,10 @@
       "dominiodvr3": "",
       "tronco": "2042",
       "ramal": "20421",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3767,7 +4382,10 @@
       "dominiodvr3": "",
       "tronco": "2051",
       "ramal": "20511",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3789,7 +4407,10 @@
       "dominiodvr3": "",
       "tronco": "2058",
       "ramal": "20581",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3811,7 +4432,10 @@
       "dominiodvr3": "",
       "tronco": "20231",
       "ramal": "20231",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3833,7 +4457,10 @@
       "dominiodvr3": "",
       "tronco": "2081",
       "ramal": "20811",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3855,7 +4482,10 @@
       "dominiodvr3": "",
       "tronco": "2021",
       "ramal": "20211",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3877,7 +4507,10 @@
       "dominiodvr3": "",
       "tronco": "2132",
       "ramal": "21321",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": true
     },
     {
@@ -3896,7 +4529,10 @@
       "dominiodvr3": "",
       "tronco": "2111",
       "ramal": "21111",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3918,7 +4554,10 @@
       "dominiodvr3": "",
       "tronco": "2018",
       "ramal": "20181",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3940,7 +4579,10 @@
       "dominiodvr3": "",
       "tronco": "2135",
       "ramal": "21351",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3962,7 +4604,10 @@
       "dominiodvr3": "",
       "tronco": "2008",
       "ramal": "20081",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -3984,7 +4629,10 @@
       "dominiodvr3": "",
       "tronco": "2138",
       "ramal": "21381",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",
@@ -4008,7 +4656,10 @@
       "dominiodvr3": "",
       "tronco": "4135",
       "ramal": "41351",
-      "facial": "",
+      "faciais": {
+        "rua": "",
+        "eclusa": ""
+      },
       "autonomo": false,
       "endereco": "",
       "linkmaps": "",

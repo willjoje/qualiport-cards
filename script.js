@@ -100,8 +100,21 @@ loadData();
 // })
 
 
+  const buguerButton = document.getElementById("burguer-menu");
+  const mainContent = document.getElementById("main-content-wrapper")
+  const sidebar = document.getElementById("sidebar");
+  buguerButton.addEventListener("click", function (event) {
+    if(sidebar.style.width != "214px"){
+      console.log("abriu");
+      sidebar.style.width = "214px";
+      mainContent.style.marginLeft = "214px";
+    }else{
+      console.log("fechou");
 
-
+      sidebar.style.width = "50px";
+      mainContent.style.marginLeft = "50px";
+    }
+  });
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
@@ -120,7 +133,6 @@ function createButtons(listArr) {
 
     const nomeCondominio = document.createElement("p")
     nomeCondominio.innerHTML = condominio.nome;
-    console.log(condominio.nome)
     nomeCondominio.className = "nome";
     card.appendChild(nomeCondominio);
 
@@ -256,17 +268,20 @@ async function displayCondominioDetailsModal(condominio) {
 
   // Populate the modal with "condominio" details
   modal.innerHTML = `
-    <div id="detalheHeader"><h2>${condominio.nome}</h2>
-    <button id="closeButton" class="button">X</button></div>
-    <button id="ipmikrotik" class="button">Mikrotik IP</button></div>
-    <button id="ipata" class="button">ATA IP</button></div>
-    <button id="ipguarita" class="button">Guarita IP</button></div>
-    <p>IP ATA 2: ${condominio.ipata2}</p>
-    <p>IP DVR: ${condominio.ipdvr}</p>
-    <p>IP DVR 2: ${condominio.ipdvr2}</p>
-    <p>IP DVR 3: ${condominio.ipdvr3}</p>
-    <p>Endereço: ${condominio.endereco}</p>
-  `;
+  <div id="detalheHeader"><h2>${condominio.nome}</h2>
+  <button id="closeButton" class="button">X</button></div>
+  <button id="ipmikrotik" class="button">Mikrotik IP</button></div>
+  <button id="ipata" class="button">ATA IP</button></div>
+  <button id="ipguarita" class="button">Guarita IP</button></div>
+  ${condominio.faciais && condominio.faciais.rua ? '<button id="leitorRua" class="button">Leitor Rua</button></div>' : ''}
+  ${condominio.faciais && condominio.faciais.eclusa ? '<button id="leitorEclusa" class="button">Leitor Eclusa</button></div>' : ''}
+  <p>IP ATA 2: ${condominio.ipata2}</p>
+  <p>IP DVR: ${condominio.ipdvr}</p>
+  <p>IP DVR 2: ${condominio.ipdvr2}</p>
+  <p>IP DVR 3: ${condominio.ipdvr3}</p>
+  <p>Endereço: ${condominio.endereco}</p>
+`;
+
 
   // Append the modal to the document
   document.body.appendChild(modal);
@@ -300,5 +315,13 @@ async function displayCondominioDetailsModal(condominio) {
   ataButton.addEventListener("click", function (event) {
     window.open(`http://${condominio.ipata}`, "_blank");
   });
+
+  const facialButton = document.getElementById("leitorRua", "leitorEclusa");
+  facialButton.addEventListener("click", function (event) {
+    window.open(`${condominio.ipmikrotik}:${leitorRua}`, "_blank");
+  });
+
+  
+
 }
 

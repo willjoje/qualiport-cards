@@ -99,27 +99,25 @@ loadData();
 
 // })
 
+// Sidebar functionality
 
-  const buguerButton = document.getElementById("burguer-menu");
-  const mainContent = document.getElementById("main-content-wrapper")
-  const sidebar = document.getElementById("sidebar");
-  buguerButton.addEventListener("click", function (event) {
-    if(sidebar.style.width != "214px"){
-      console.log("abriu");
-      sidebar.style.width = "214px";
-      mainContent.style.marginLeft = "214px";
-    }else{
-      console.log("fechou");
+const openSidebar = document.getElementById("openbtn");
+const sidebar = document.getElementById("sidebar");
+const mainContent = document.getElementById("main-content-wrapper");
+const closeButton = document.getElementById("closebtn");
 
-      sidebar.style.width = "50px";
-      mainContent.style.marginLeft = "50px";
-    }
-  });
+openSidebar.addEventListener("click", function (event){
+  sidebar.style.width = "150px";
+  mainContent.style.marginLeft = "150px";
+})
+
+closeButton.addEventListener("click", function (event){
+  sidebar.style.width = "0px";
+  mainContent.style.marginLeft = "0px";
+})
 
 function createButtons(listArr) {
   let cardContainer = document.getElementById("card-container");
-  var textArea = document.getElementById("offlineNotification");
-  textArea.value = "";
 
   while (cardContainer.firstChild) {
     cardContainer.removeChild(cardContainer.firstChild);

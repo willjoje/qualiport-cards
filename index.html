@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link
-      rel="icon"
-      href="https://qualiport.com.br/imagens-qualiport/144.png"
-      type="image/png"
-    />
-    <title>Qualiport Cards</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <!-- <style>
+
+<head>
+  <link rel="icon" href="https://qualiport.com.br/imagens-qualiport/144.png" type="image/png" />
+  <title>Qualiport Cards</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- <style>
         /* Esconder o conteúdo principal por padrão */
         .main-content,
         .header,
@@ -16,49 +13,40 @@
             display: none;
         }
     </style> -->
-  </head>
+</head>
 
-  <body>
-    <div class="sidebar" id="sidebar">
-      <a href="#" class="closebtn" id="closebtn" ="closeBar()">&times;</a>
-      <a href="#">Adicionar</a>
-      <a href="#">Alterar</a>
-      <a href="#">Remover</a>
-      <a href="#">Listar</a>
-    </div>
-    
-    <a href="#" id="openbtn">
-      <img id="opensvg" src="assets/burguer-menu.svg" alt="burguer-menu">
-    </a>
+<body>
+  <div class="sidebar" id="sidebar">
+    <a href="#" class="closebtn" id="closebtn"="closeBar()">&times;</a>
+    <a href="#">Adicionar</a>
+    <a href="#">Alterar</a>
+    <a href="#">Remover</a>
+    <a href="#">Listar</a>
+  </div>
+
+  <a href="#" id="openbtn">
+    <img id="opensvg" src="assets/burguer-menu.svg" alt="burguer-menu">
+  </a>
 
 
-    <div class="main-content-wrapper" id="main-content-wrapper">
-      <script type="module" src="script.js"></script>
-      <div class="header">
-        <img
-          id="logo"
-          src="https://www.qualiport.com.br/imagens-qualiport/qualiport-branco.png"
-          alt="logo qualiport"
-        />
-        <div id="search-block">
-          <input
-            type="text"
-            class="search-bar"
-            id="search-bar"
-            placeholder="Nome do condomínio"
-          />
-          <button id="eraser" class="eraser">X</button>
-        </div>
+  <div class="main-content-wrapper" id="main-content-wrapper">
+    <script type="module" src="script.js"></script>
+    <div class="header">
+      <img id="logo" src="https://www.qualiport.com.br/imagens-qualiport/qualiport-branco.png" alt="logo qualiport" />
+      <div id="search-block">
+        <input type="text" class="search-bar" id="search-bar" placeholder="Nome do condomínio" />
+        <button id="eraser" class="eraser">X</button>
       </div>
+    </div>
 
-      <dialog class="modal">
-        <div class="modal-box">
-          <p class="modal-content"></p>
-        </div>
-      </dialog>
+    <dialog class="modal">
+      <div class="modal-box">
+        <p class="modal-content"></p>
+      </div>
+    </dialog>
 
-      <!-- Formulário de autenticação -->
-      <!-- <div class="login-container" id="login-container">
+    <!-- Formulário de autenticação -->
+    <!-- <div class="login-container" id="login-container">
             <form id="login-form">
                 <label for="username">Usuário:</label>
                 <input type="text" id="username" name="username" required><br><br>
@@ -68,14 +56,14 @@
             </form>
         </div> -->
 
-      <div class="main-content">
-        <!-- Conteúdo principal aqui -->
-        <div class="card-container" id="card-container">
-          <!-- all cards -->
-        </div>
+    <div class="main-content">
+      <!-- Conteúdo principal aqui -->
+      <div class="card-container" id="card-container">
+        <!-- all cards -->
       </div>
+    </div>
 
-      <!-- <script>
+    <!-- <script>
             document.getElementById("login-form").addEventListener("submit", function (event) {
                 event.preventDefault();
                 const username = document.getElementById("username").value;
@@ -96,6 +84,28 @@
                 }
             });
         </script> -->
-    </div>
-  </body>
+  </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyAATlVnPBF8nV_9D-Oj1g2S1d6M9A3NMZ4",
+    authDomain: "qualiport-cards.firebaseapp.com",
+    projectId: "qualiport-cards",
+    storageBucket: "qualiport-cards.appspot.com",
+    messagingSenderId: "717239443892",
+    appId: "1:717239443892:web:1d295d92e0e1f1a03912e1"
+  };
+  firebase.initializeApp(firebaseConfig);
+
+  console.log('antes');
+  firebase.auth().signInWithEmailAndPassword("jefwillyam@gmail.com", "QualiportSuporteTi").then(response => {
+    console.log('sucesso ', response);
+  }).catch(error=>{
+    console.log('error ', error);
+  });
+  console.log('depois');
+</script>
+
 </html>
